@@ -15,15 +15,18 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "Feriel Hamed",
   initials: "HF",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://dillion.io", // TODO: no personal site URL in CV — placeholder kept
+  location: "Tunis, Tunisia",
+  locationLink: "https://www.google.com/maps/place/sanfrancisco", // TODO: no map link in CV — placeholder kept
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Electronics & Embedded Software Engineer | IoT | Fresh Graduate.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "Recently graduated Electronics & Embedded Systems Engineer (ISIMM). Final year project at Inovaria Tech: connected fuel-level monitoring system for heavy-duty vehicles (STM32, FreeRTOS, CAN/J1939, MQTT). Comfortable across the embedded stack, firmware, PCB design, sensor integration, and automotive protocols. Seeking a Junior Embedded Systems, Firmware, or IoT Engineer role.",
+  avatarUrl: "/me.png", // TODO: no photo provided in CV — placeholder kept
   skills: [
+    // TODO: CV skill set (STM32, FreeRTOS, CAN/J1939, MQTT, KiCad, Altium, C/C++, Python, MATLAB,
+    // JavaScript, React.js/React Native, Node.js, Supabase/PostgreSQL, MySQL, Git, etc.) doesn't
+    // cleanly match the existing icon set below — placeholder list kept unchanged for you to rework.
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Typescript", icon: Typescript },
@@ -41,33 +44,33 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "ferielhamed19@gmail.com",
+    tel: "+216 28 461 842",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://dub.sh/dillion-github", // TODO: CV only lists "GitHub" as a label, no actual URL given — placeholder kept
         icon: Icons.github,
         navbar: true,
       },
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://dub.sh/dillion-linkedin", // TODO: CV only lists "LinkedIn" as a label, no actual URL given — placeholder kept
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://dub.sh/dillion-twitter", // TODO: not in CV — placeholder kept
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://dub.sh/dillion-youtube", // TODO: not in CV — placeholder kept
         icon: Icons.youtube,
         navbar: true,
       },
@@ -83,80 +86,82 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Inovaria Tech",
+      href: "https://atomic.finance", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "Sousse, Tunisia",
+      title: "Embedded Systems Engineering Intern – Final Year Project (PFE)",
+      logoUrl: "/atomic.png", // TODO: no logo provided in CV — placeholder kept
+      start: "Feb 2026",
+      end: "Jul 2026",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Developed embedded firmware on STM32F407 with FreeRTOS, using a Kalman filter for sensor fusion and fuel-level accuracy. Integrated CAN bus (SAE J1939) and MQTT/GSM connectivity for real-time IoT vehicle diagnostics. Built a live monitoring dashboard (Node.js, Supabase) with leakage, water and fuel-theft detection — 18.5/20 evaluation.",
     },
     {
-      company: "Shopify",
+      company: "EMKAMED",
+      href: "https://shopify.com", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      location: "Ouardanine, Monastir, Tunisia",
+      title: "Embedded Systems Intern",
+      logoUrl: "/shopify.svg", // TODO: no logo provided in CV — placeholder kept
+      start: "Aug 2025",
+      end: "Aug 2025",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed firmware on ESP32 using PlatformIO for a soil-moisture monitoring and automatic irrigation valve system. Contributed to PCB schematic design using Altium Designer.",
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company:
+        "CRMN – Centre de Recherche en Microélectronique et Nanotechnologie",
+      href: "https://nvidia.com/", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "Sousse, Tunisia",
+      title: "Research Intern – Electrical Characterization of GaN HEMT Transistors",
+      logoUrl: "/nvidia.png", // TODO: no logo provided in CV — placeholder kept
+      start: "Jun 2025",
+      end: "Jun 2025",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Performed I-V electrical characterization of AlGaN/GaN HEMT transistors using a probe tester and parameter analyzer. Identified hysteresis and self-heating effects from deep-level defects, and modeled 2DEG behavior analytically using MATLAB.",
     },
     {
-      company: "Splunk",
-      href: "https://splunk.com",
+      company: "Sunrise Solar Power",
+      href: "https://splunk.com", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
+      location: "Gafsa, Tunisia",
+      title: "Power Electronics Intern",
+      logoUrl: "/splunk.svg", // TODO: no logo provided in CV — placeholder kept
+      start: "Jul 2024",
+      end: "Jul 2024",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Assisted in installation, wiring, and component soldering for photovoltaic solar panel systems. Monitored system performance and supported basic troubleshooting of power electronics components.",
     },
     {
-      company: "Lime",
-      href: "https://li.me/",
+      company: "La Société Tunisienne de Sidérurgie – EL FOULADH",
+      href: "https://li.me/", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
+      location: "Bizerte, Tunisia",
+      title: "Software Development Intern",
+      logoUrl: "/lime.svg", // TODO: no logo provided in CV — placeholder kept
+      start: "Feb 2023",
+      end: "May 2023",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Developed a React Native mobile app and a React.js web interface for inventory tracking. Designed a MySQL database for managing finished-product stock.",
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Genios Smart Technology",
+      href: "https://mitremedia.com/", // TODO: no company URL given in CV — placeholder kept
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
+      location: "Chebba, Tunisia",
+      title: "Web Development Intern",
+      logoUrl: "/mitremedia.png", // TODO: no logo provided in CV — placeholder kept
+      start: "Jul 2022",
+      end: "Aug 2022",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Built responsive web page components using HTML5 and CSS3.",
     },
   ],
   education: [
     {
+      // TODO: no CV entry matches "Buildspace" — placeholder entry kept entirely unchanged
       school: "Buildspace",
       href: "https://buildspace.so",
       degree: "s3, s4, sf1, s5",
@@ -165,22 +170,26 @@ export const DATA = {
       end: "2024",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school:
+        "ISIMM – Higher Institute of Computer Science and Mathematics of Monastir, Tunisia",
+      href: "https://uwaterloo.ca", // TODO: no school URL given in CV — placeholder kept
+      degree:
+        "Engineering Degree (Diplôme National d'Ingénieur) – Electronics: Microelectronics & Embedded Systems",
+      logoUrl: "/waterloo.png", // TODO: no logo provided in CV — placeholder kept
+      start: "2023",
+      end: "2026",
     },
     {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
+      school:
+        "ISSAT Mahdia – Higher Institute of Applied Sciences and Technology of Mahdia, Tunisia",
+      href: "https://wlu.ca", // TODO: no school URL given in CV — placeholder kept
+      degree: "Bachelor's Degree in Information and Communication Technologies",
+      logoUrl: "/laurier.png", // TODO: no logo provided in CV — placeholder kept
+      start: "2020",
+      end: "2023",
     },
     {
+      // TODO: no CV entry matches "International Baccalaureate" — placeholder entry kept entirely unchanged
       school: "International Baccalaureate",
       href: "https://ibo.org",
       degree: "IB Diploma",
@@ -191,23 +200,15 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "OBD-II Automotive Diagnostic Tool",
+      href: "https://chatcollect.com", // TODO: no project URL given in CV — placeholder kept
+      dates: "Jan 2024 - Feb 2024", // TODO: no dates given in CV — placeholder kept
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Reads and interprets real-time vehicle data (PIDs) over the OBD-II protocol on ESP32.",
+      technologies: ["ESP32", "OBD-II", "Embedded C"],
       links: [
+        // TODO: no links given in CV — placeholder kept
         {
           type: "Website",
           href: "https://chatcollect.com",
@@ -216,26 +217,18 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4", // TODO: placeholder kept
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Renault VECU Simulator – CAN/J1939",
+      href: "https://magicui.design", // TODO: no project URL given in CV — placeholder kept
+      dates: "June 2023 - Present", // TODO: no dates given in CV — placeholder kept
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Simulates a virtual ECU generating and decoding CAN messages using the SAE J1939 protocol for heavy-duty vehicles.",
+      technologies: ["CAN Bus", "SAE J1939", "Embedded C"],
       links: [
+        // TODO: no links given in CV — placeholder kept
         {
           type: "Website",
           href: "https://magicui.design",
@@ -248,9 +241,10 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://cdn.magicui.design/bento-grid.mp4", // TODO: placeholder kept
     },
     {
+      // TODO: no CV entry matches "llm.report" — placeholder entry kept entirely unchanged
       title: "llm.report",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
@@ -284,6 +278,7 @@ export const DATA = {
       video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
+      // TODO: no CV entry matches "Automatic Chat" — placeholder entry kept entirely unchanged
       title: "Automatic Chat",
       href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
@@ -314,6 +309,7 @@ export const DATA = {
     },
   ],
   hackathons: [
+    // TODO: CV does not mention any hackathons — full original placeholder list kept unchanged.
     {
       title: "Hack Western 5",
       dates: "November 23rd - 25th, 2018",
