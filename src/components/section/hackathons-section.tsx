@@ -48,7 +48,7 @@ export default function HackathonsSection() {
                   <h3 className="font-semibold leading-none">{hackathon.title}</h3>
                 )}
                 {hackathon.description && (
-                  <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word">
+                  <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word ">
                     {hackathon.description}
                   </p>
                 )}
