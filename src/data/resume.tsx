@@ -110,11 +110,11 @@ export const DATA = {
     },
     {
       company: "EMKAMED",
-      href: "https://shopify.com", // TODO: no company URL given in CV — placeholder kept
+      href: "https://emka-med.com/en/", // TODO: no company URL given in CV — placeholder kept
       badges: [],
       location: "Ouardanine, Monastir, Tunisia",
       title: "Embedded Systems Intern",
-      logoUrl: "/shopify.svg", // TODO: no logo provided in CV — placeholder kept
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNlcMOlrkhDz0-bz1peEM705Mpu54OWt9Vcv9jlcOPqQly_wKwJ23mEr4&s=10", // TODO: no logo provided in CV — placeholder kept
       start: "Aug 2025",
       end: "Aug 2025",
       description:
@@ -235,6 +235,60 @@ export const DATA = {
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4", // TODO: placeholder kept
     },
+    {
+      title: "Accelerometer Interfacing over SPI",
+      href: "", // TODO: no project URL given in CV
+      dates: "Academic", // TODO: no exact dates given in CV
+      active: false,
+      description:
+        "Drove a LIS302DL accelerometer from an STM32F407 over SPI at register level, reading X/Y/Z in real time and indicating movement direction on the board LEDs.",
+      technologies: ["STM32F407", "SPI", "Register-level C"],
+      links: [], // TODO: no links given in CV
+      image: "",
+      video: "", // TODO: no media given in CV
+    },
+    {
+      title: "Environmental Monitoring with DHT11 and LCD",
+      href: "", // TODO: no project URL given in CV
+      dates: "Academic", // TODO: no exact dates given in CV
+      active: false,
+      description:
+        "Temperature and humidity acquisition on STM32F4 with a DHT11 sensor, displayed live on an LCD.",
+      technologies: ["STM32F4", "DHT11", "I2C"],
+      links: [], // TODO: no links given in CV
+      image: "",
+      video: "", // TODO: no media given in CV
+    },
+    {
+      title: "Numerical Control of a DC Motor — Raspberry Pi 5",
+      href: "", // TODO: no project URL given in CV
+      dates: "2024",
+      active: false,
+      description:
+        "Team project (with Azza Bani and Zayneb Rhimi) building a full digital control chain for a DC motor. Contributed across the pipeline: motor modelling, speed/position regulation with P, PI and PID correctors tuned via Ziegler–Nichols, open- and closed-loop control with real-time signal acquisition, and an interactive Tkinter interface for adjusting setpoints and PID parameters live.",
+      technologies: [
+        "Raspberry Pi 5",
+        "Python",
+        "PID control",
+        "Ziegler–Nichols",
+        "Tkinter",
+      ],
+      links: [], // TODO: no links given in CV
+      image: "",
+      video: "", // TODO: no media given in CV
+    },
+    {
+      title: "Automated Arthritis Detection with 3D Visualisation",
+      href: "", // TODO: no project URL given in CV
+      dates: "2024",
+      active: false,
+      description:
+        "Team project (with a fellow microelectronics student) on an image-processing pipeline for medical images: preprocessing, segmentation, contour detection, and 3D visualisation of the affected joint areas, aimed at supporting faster, more precise diagnosis. Contributed across the pipeline using Python, OpenCV, NumPy, Matplotlib and Plotly on Google Colab.",
+      technologies: ["Python", "OpenCV", "NumPy", "Plotly"],
+      links: [], // TODO: no links given in CV
+      image: "",
+      video: "", // TODO: no media given in CV
+    },
   ],
   hackathons: [
     // TODO: CV does not mention any hackathons — full original placeholder list kept unchanged.
@@ -269,6 +323,25 @@ export const DATA = {
       icon: "public",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      links: [],
+    },
+     {
+      title: "Volunteer Robotics Instructor",
+      dates: "2025 - 2026",
+      location: "Hipro Training Centre",
+      description:
+        "Delivered four months of hands-on robotics sessions for children, introducing them to basic electronics, programming, and robotics concepts. Guided participants through practical activities and beginner-level projects, helping develop problem-solving, logical thinking, and teamwork skills.",
+      image: "", // TODO: no image provided — add one if available
+      links: [],
+    },
+    {
+      title: "Active Member – ISIMM Robotics Club (CRI)",
+      dates: "2023 - 2026",
+      location:
+        "ISIMM – Higher Institute of Computer Science and Mathematics of Monastir",
+      description:
+        "Sponsorship Team Member for CRBot V2 (2024), contributing to sponsorship activities and communication with potential partners. Press Team Member for CRBot V3 (2025), handling media coverage and coordination with radio, television, and other outlets to support the event's public visibility. Participated in robotics projects and club activities involving electronics, programming, teamwork, and event organization.",
+      image: "", // TODO: no image provided — add one if available
       links: [],
     },
   ],
